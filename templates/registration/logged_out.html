@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logged Out</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 400px; margin: 0 auto; }
+        p { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Logged Out</h1>
+        <p>You have been logged out.</p>
+        <a href="{% url 'login' %}">Login again</a> | <a href="{% url 'post_list' %}">Return to the blog</a>
+    </div>
+</body>
+</html>
